@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Fcomponent from './Fcomponent'
 
-export default class Picker extends Component{
+export default class Ccomponent extends Component{
     constructor(props) {
         super(props);
         this.state = {

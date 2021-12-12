@@ -2,14 +2,16 @@ import React from 'react';
 import './App.css';
 import Test from './component/Test';
 import Form from './component/Form'
-import Component from './component/transfer/Component';
+import Ccomponent from './component/transfer/Ccomponent';
+import Api from './component/api/Api'
 
 
 function App() {
   return (
     <div className="App">
-      <Component />
-      {/* <Form />
+      <Api />
+      {/* <Ccomponent />
+      /* <Form />
       <Test/> */}
     </div>
   );
